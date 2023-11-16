@@ -1,0 +1,13 @@
+input_shape = (224,224,3)
+classes = 3
+channel = 3
+epoch = 10
+learning_Rate = 1e-3
+batch_size = 8
+shift_range = 0.1
+rotation_range = 0.1
+zoom_range = 0.1
+dataDir = "../../Dataset"
+SaveWeightFolder = "ModeSaved"
+trainFolder = "LeafData/train"
+valFolder = "LeafData/val"
